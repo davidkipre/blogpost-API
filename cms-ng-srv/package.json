@@ -1,0 +1,35 @@
+{
+  "name": "whisky-cms-ng-srv",
+  "version": "1.0.0",
+  "description": "CMS based on the MEAN stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lint & nodemon app.js",
+    "lint": "./node_modules/.bin/eslint **/*.js"
+  },
+  "keywords": [
+    "Mongo",
+    "Express",
+    "Angular",
+    "Node"
+  ],
+  "author": "david",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.9.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.10.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sharp": "^0.26.2"
+  }
+}
